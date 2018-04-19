@@ -7,15 +7,10 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-#turn_count
-# player X goes first, so if only one space filled, X
-# player O goes second, so if two spaces filed, O
-.each
-game_plays = ["X", "O"]
-game_plays.each do |play|
-
+moves = ["X", "O"]
 counter = 0
-if space_occupied
+moves.each do | move|
+loop do 
   counter += 1
 end
 
