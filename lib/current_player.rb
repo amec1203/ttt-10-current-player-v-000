@@ -10,10 +10,10 @@ current_player(board)
 
 end
 
-current_player
+current_player(board)
   if turn_count % 2
     puts "X"
-  else 
+  else
     puts "O"
   end
-end 
+end
