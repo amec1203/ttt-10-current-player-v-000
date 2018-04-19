@@ -1,4 +1,3 @@
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 turn count = 0
 
 turn_count(board)
