@@ -1,19 +1,8 @@
-turn_count(board)
-board = [" ", "", "", "", "", "", "", "", ""]
-counter = 0
-board.each do |board|
-  counter += 1
-  end
+def turn_count(board)
+  board.count{|move| move == "X" || move == "O"}
+  end 
 end
 
-current_player(board)
-
-end
-
-current_player(board)
-  if turn_count % 2
-    puts "X"
-  else
-    puts "O"
-  end
-end
+def current_player(board)
+  turn_count(board_) % 2 == 0 ? "X" : "O"
+end 
