@@ -1,3 +1,4 @@
+turns available = 9
 turn count = 0
 loop do
   if turn_count < turns_available
