@@ -3,7 +3,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 moves = ["X", "O"]
 counter = 0
 moves.each do | move|
-loop do 
+loop do
   counter += 1
 end
 
