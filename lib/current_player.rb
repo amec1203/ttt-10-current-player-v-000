@@ -5,8 +5,8 @@ def turn_count(board)
     if move == "X" || move == "O"
       count += 1
     end
+    binding.pry
   end
-  binding.pry
   count
 end
 
