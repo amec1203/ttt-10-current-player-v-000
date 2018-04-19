@@ -13,7 +13,7 @@ end
 .each
 game_plays = ["X", "O"]
 game_plays.each do |play|
-  
+
 counter = 0
 if space_occupied
   counter += 1
