@@ -4,7 +4,7 @@ play_2 = "Y"
 turn_count = 0
 
 loop do
-  if turn_count < turns_played
+  if turn_count < turns_available
 
 counter = 0
 moves.each do | move|
