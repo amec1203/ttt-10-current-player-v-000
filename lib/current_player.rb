@@ -11,3 +11,9 @@ current_player(board)
 end
 
 current_player
+  if turn_count % 2
+    puts "X"
+  else 
+    puts "O"
+  end
+end 
