@@ -1,6 +1,8 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+player_1 = "X"
+play_2 = "Y"
+turns_taken = 0
 
-moves = ["X", "O"]
 counter = 0
 moves.each do | move|
 loop do
