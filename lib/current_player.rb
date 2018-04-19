@@ -1,16 +1,9 @@
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-player_1 = "X"
-play_2 = "Y"
-turn_count = 0
-
+turn count = 0
 loop do
   if turn_count < turns_available
-
-counter = 0
-moves.each do | move|
-loop do
-  counter += 1
-end
-
-
-#current_player
+    turn_count += 1
+  else
+    break
+  end
+end 
+  
