@@ -1,6 +1,6 @@
 def turn_count(board)
   board.count{|move| move == "X" || move == "O"}
-  end 
+  end
 end
 
 def current_player(board)
