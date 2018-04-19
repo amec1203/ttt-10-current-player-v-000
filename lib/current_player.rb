@@ -3,4 +3,5 @@ spaces = ["space 1", "space 2", "space 3", "space 4", "space 5", "space 6", "spa
 counter = 0
 spaces.each do |space|
   counter += 1
-end
+  end
+end 
