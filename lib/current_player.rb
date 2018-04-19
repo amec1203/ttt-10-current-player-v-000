@@ -1,7 +1,7 @@
 turn_count(board)
 board = [" ", "", "", "", "", "", "", "", ""]
 counter = 0
-spaces.each do |space|
+board.each do |board|
   counter += 1
   end
 end
